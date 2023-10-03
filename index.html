@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="mood-pomo" id="mood">
+
+
+    <h1 class="Intro">Timer Pomodoro</h1>
+
+    <br><br><br>
+    <div class="row justify-content-center">
+        <div class="col-auto p-5 text-center">
+    
+    <div class="contenedor-pomodoro">
+    <h3 class="display-3 Tiempo">Tiempo:</h3>
+    <h4 class="display-1" id="timer"></h1>
+        
+    <p id="modo"></p>
+    <button type="button" class="btn btn-outline-info" onclick="iniciar_timer()">Iniciar</button>
+    <button type="button" class="btn btn-outline-info" onclick="detener_timer()">Frenar</button>
+    <br>
+    <br>
+</div>
+    <br><br><br><br>
+    <h2 class="Reglas">Reglas:</h2>
+    <ul>
+        <li class="Reglas">Sets de 25 minutos de laburo.</li>
+        <li class="Reglas">Seguidos de 5 minutos de descanso.</li>
+        <li class="Reglas"> El tercer descanso va a ser de 15 minutos.</li>
+        <li class="Reglas">Tirar un sonidito al cambio de mood</li>
+    </ul>
+</div>
+</div>
+    <script src="indexpomodoro.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

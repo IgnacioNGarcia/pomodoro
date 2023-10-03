@@ -1,0 +1,17 @@
+.mood-pomo{
+    background-color: #BA4949;
+}
+.mood-descanso-simple{
+    background-color: #37858A;
+}
+.mood-descanso-largo{
+    background-color: #397097;
+}
+.Intro, .Reglas,.Tiempo,#timer,#modo,li{
+    color: white;
+}
+.contenedor-pomodoro{
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 2px;
+}
