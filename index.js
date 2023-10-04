@@ -19,7 +19,7 @@ function iniciar_timer(){
     }
     barra_progreso.classList.add("bg-danger");
     mood.classList.add("mood-pomo");
-    lugar_modo.innerHTML = 'Modo concentración'
+    lugar_modo.innerHTML = 'Modo concentración 25 minutos'
     lugar_timer.innerHTML = '';
     let minutos=0, segundos = 0;
 
